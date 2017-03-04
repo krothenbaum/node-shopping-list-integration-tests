@@ -1,3 +1,9 @@
 language: node_js
 node_js: node
-
+deploy:
+  provider: heroku
+  api_key:
+    secure: b2971yCx7EkwUOR6s2n7Q0lkHzXEaQK96xeAbp0rjQM9rzHbiHKPNRdsBKU5AUXnWU4N4s4UpOFppbjxDA/FqmozKWHw+PWNcGQxBrkH9p1GredFbpMtgijoAZ10M922TBThdyAgSR5M/WdUFu8OeKK0VaYYl/Y9RsJzE/D/UDaB9kaGZ/p9G8CqxqMBpYztkj+94cuvtACkeA35PPOIwEgXFxOhDzSA59IwOSt4ERfK720xYYAEWY4W7pPb7ZqAtX93/+XENCxX2BDVVz9r9zPLbccP7Ok/oVpQV/gILv+qfKk2HAQBBwfGYNieijU1x9r1BsLhwqDxD+U/UcTGQcZQ2bMOUDXLFHm3mfShbUlBd9WSmQCPHR36cKxm7RgEFzqdyVqp4UbuuQY8xeR1WljkWMJ2/2G5wo0zuPXm3IbEj7K6vQqVlf+7Qah4gutA5O97clDGUQQlirQ4XwU9sEEaZBLsCKfUn9ZZAfbqY/ah7ghvRuLhBaSfp3j7E2gHGjIGhyV773+OnL0HAPlg/3gzyJxWuyJVGdiBkKSA0K4mI3CQKup/dI0UIT4F8XEuiJI9rNeS/RPLMoKlHDRSJXm45QPA/b5/5v042yqeRC1Ybb0MEyP7WSGJX6dDmcCMZWIwYQLaeYzsR/VygRiIGO7TmJNSbuQjFVNS+O5Ptx0=
+  app: sleepy-hollows-73316
+  on:
+    repo: krothenbaum/node-shopping-list-integration-tests
